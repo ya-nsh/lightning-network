@@ -1,10 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
-  return <div className="app">Lightning Network</div>;
+  return (
+    <div className="app">
+      <Header />
+      {/* Body */}
+      {/*1. Sidebar */}
+      {/*2. Feed */}
+      {/*3. Widgets */}
+    </div>
+  );
 }
 
 export default App;
