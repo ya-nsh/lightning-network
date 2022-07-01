@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="border-b border-gray-100 shadow-xl">
       <div className="flex items-center justify-between h-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
-        <span className="mr-10 cursor-pointer font-bold xs:ml-5 sm:ml-10 md:text-xl ">
+        <span className="mr-10 cursor-pointer font-bold xs:ml-5 sm:ml-10 md:text-xl ml-10 ">
           Lightning Network
         </span>
 
@@ -45,19 +45,19 @@ function Header() {
           <div className="flex items-center ml-8">
             <div className="flex items-center border-gray-100 divide-x divide-gray-100 border-x">
               <div className="ml-40 hidden sm:block">
-                <div class="relative flex items-center">
-                  <label class="sr-only" for="email">
+                <div className="relative flex items-center">
+                  <label className="sr-only" for="email">
                     Search
                   </label>
 
                   <input
-                    class="w-full py-3 pl-3 pr-12 text-sm border-2 border-gray-200 rounded"
+                    className="w-full py-3 pl-3 pr-12 text-sm border-2 border-gray-200 rounded"
                     id="search"
                     type="text"
                     placeholder="Search"
                   />
 
-                  <span class="absolute text-gray-500 -translate-y-1/2 pointer-events-none top-1/2 right-4 ">
+                  <span className="absolute text-gray-500 -translate-y-1/2 pointer-events-none top-1/2 right-4 ">
                     <SearchIcon />
                   </span>
                 </div>
