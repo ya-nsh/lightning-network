@@ -2,8 +2,8 @@ import React from 'react';
 
 function Sidebar() {
   return (
-    <div className="flex flex-[0.2] shadow-lg hover:shadow-2xl transition-all duration-700 rounded-2xl ease-in-out  bg-white mt-10 ml-2">
-      <div className="relative block  overflow-hidden border rounded-lg">
+    <div className="flex-col flex-[0.2] rounded-2xl  mt-10 ml-2">
+      <div className="relative block bg-white overflow-hidden border rounded-2xl hover:shadow-2xl transition-all duration-700 ease-in-out shadow-lg">
         <span className="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
 
         <div className="flex-col sm:flex relative">
@@ -47,6 +47,35 @@ function Sidebar() {
               <dd className="text-xs text-gray-500">Views on post</dd>
             </div>
           </dl>
+        </div>
+      </div>
+      <div className="mt-10 bg-white   border rounded-2xl hover:shadow-2xl transition-all duration-700 ease-in-out shadow-lg">
+        <h2 className="font-bold text-center mt-2 mb-5">Recent</h2>
+        <div className="hashtags flex-col p-2">
+          <div className="block text-sm text-gray-500 hover:text-gray-900 text-center">
+            #react
+          </div>
+          <div className="text-sm text-gray-500 hover:text-gray-900 text-center">
+            #javascript
+          </div>
+          <div className="text-sm text-gray-500 hover:text-gray-900 text-center">
+            #nodejs
+          </div>
+          <div className="text-sm text-gray-500 hover:text-gray-900 text-center">
+            #express
+          </div>
+          <div className="text-sm text-gray-500 hover:text-gray-900 text-center">
+            #mongodb
+          </div>
+          <div className="text-sm text-gray-500 hover:text-gray-900 text-center">
+            #react-native
+          </div>
+          <div className="text-sm text-gray-500 hover:text-gray-900 text-center">
+            #redux
+          </div>
+          <div className="text-sm text-gray-500 hover:text-gray-900 text-center">
+            #node-js
+          </div>
         </div>
       </div>
     </div>
